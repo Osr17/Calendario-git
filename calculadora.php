@@ -74,7 +74,7 @@ echo "<br>";
 echo "El exponente de: ".$calc->n1."^".$calc->n2."=".$calc->exponencial();
 $calc->mostrarResultado();
 echo "<br>";
-echo "La raíz cuadrada de: √".$calc->n1." es ".$calc->raiz();
+echo "EL resultado de la raíz cuadrada de: √".$calc->n1." es ".$calc->raiz();
 $calc->mostrarResultado();
 echo "<br>";
 $calc->MC();

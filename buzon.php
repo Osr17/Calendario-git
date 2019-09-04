@@ -24,7 +24,7 @@
     $enlace=fopen("buzon.txt","a");    
     if(!empty($enlace)){
         $contenido=PHP_EOL.$nombre.PHP_EOL.$correo.PHP_EOL.$texto.PHP_EOL;
-        //echo $contenido;
+        
         fwrite($enlace,$contenido);
         fclose($enlace);
     }

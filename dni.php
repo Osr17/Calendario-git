@@ -44,7 +44,7 @@
             echo "</form>";
             }
       if(isset($_POST['cambiar']) && isset($_POST['dni_socio']) && isset($_POST['dni_nuevo'])){
-          //echo "hola";
+          
           $dni_socio=$_POST['dni_socio'];
           $dni_nuevo=$_POST['dni_nuevo'];
           $archivo=fopen("dni.txt","r");
