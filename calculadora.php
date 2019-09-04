@@ -68,7 +68,7 @@ echo "<br>";
 echo "La multiplicación de: ".$calc->n1."*".$calc->n2."=".$calc->multiplicar();
 $calc->mostrarResultado();
 echo "<br>";
-echo "La división de: ".$calc->n1."/".$calc->n2."=".$calc->dividir();
+echo "El resultado de la división de: ".$calc->n1."/".$calc->n2."=".$calc->dividir();
 $calc->mostrarResultado();
 echo "<br>";
 echo "El exponente de: ".$calc->n1."^".$calc->n2."=".$calc->exponencial();
